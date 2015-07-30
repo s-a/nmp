@@ -1,17 +1,14 @@
 {
   "name": "nmp",
   "version": "1.0.0",
-  "description": "Give love to different versions of native modules",
+  "description": "Give love to different runtime versions of native modules",
   "main": "./lib/index.js",
   "directories": {
     "test": "test"
   },
-  "devDependencies": {
-    "mocha": "^2.2.5",
-    "should": "^7.0.2"
-  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "bump": "npm version patch && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -22,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/s-a/nmp/issues"
   },
-  "homepage": "https://github.com/s-a/nmp#readme"
+  "homepage": "https://github.com/s-a/nmp#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  }
 }
