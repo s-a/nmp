@@ -1,5 +1,9 @@
-# Native Module Path
-Give love to path of native Node.js modules to support different runtime versions.
+# Native Module Path (nmp)
+[![Build Status](https://travis-ci.org/s-a/nmp.svg)](https://travis-ci.org/s-a/nmp)
+[![Dependency Status](https://david-dm.org/s-a/nmp.svg)](https://david-dm.org/s-a/nmp)
+[![devDependency Status](https://david-dm.org/s-a/nmp/dev-status.svg)](https://david-dm.org/s-a/nmp#info=devDependencies)
+
+Give love to the path of native Node.js modules and support different runtime versions.
 
 ## API
 
