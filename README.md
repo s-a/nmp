@@ -9,7 +9,7 @@ Give love to the path of native Node.js modules and support different runtime ve
 ## API
 
 ### NMP.join
-Acts like path.join but injects a version string of current running v8 engine running.
+Acts like path.join but injects a version string of current running v8 engine running to second last position.
 ```javascript
 var NMP = require("nmp");
 var nmp = new NMP();
