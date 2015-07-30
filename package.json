@@ -1,0 +1,26 @@
+{
+  "name": "nmp",
+  "version": "1.0.0",
+  "description": "Give love to different versions of native modules",
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/nmp.git"
+  },
+  "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/nmp/issues"
+  },
+  "homepage": "https://github.com/s-a/nmp#readme"
+}
