@@ -1,4 +1,5 @@
 # Native Module Path (nmp)
+[![npm version](https://badge.fury.io/js/nmp.svg)](http://badge.fury.io/js/nmp)
 [![Build Status](https://travis-ci.org/s-a/nmp.svg)](https://travis-ci.org/s-a/nmp)
 [![Dependency Status](https://david-dm.org/s-a/nmp.svg)](https://david-dm.org/s-a/nmp)
 [![devDependency Status](https://david-dm.org/s-a/nmp/dev-status.svg)](https://david-dm.org/s-a/nmp#info=devDependencies)
